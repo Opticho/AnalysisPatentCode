@@ -2,7 +2,7 @@
 
 ## 0. Introduction   
     I just wan't to get the patent summary(title texts and pdf summary files) from the USPTO patent site for each a day.   
-    this is the code that I conjugate with the libraries from Python, crowling the html source and send http messages to get information.   
+    this is the code that I conjugate with the libraries from Python with open API, crowling the html source and send http messages to get information.   
     but it's just rough code, and I programmed to just one text file in a day.   
     if you have to try again to search, you have to delete the text file.
 
