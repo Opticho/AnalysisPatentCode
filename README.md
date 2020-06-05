@@ -16,7 +16,7 @@ Library Conjugation
 ## 2. Arguments   
 ------------
     - "-i" : Give some command (search, compare, merge, download)   
-    - "-q" : Input Some Query (just AND and OR operator can available)   
+    - "-q" : Input some Query (just AND and OR operator can available)   
     - "-fp" : change txt save path   
     - "-pp" : change pdf save path   
     *Default: -q = 'TTL/(Ultrasonic OR Ultrasound OR Megasound OR Megasonic OR acoustic) AND TTL/(cover OR cap OR case OR covering OR mantle OR hood OR sheet OR shutter OR vinyl OR cowl OR lid OR mulch OR seal)',    
@@ -32,7 +32,8 @@ Library Conjugation
     (note that it's just uses TTL and OR and AND operator, others will occurs error)
     
     Python uspto_search.py -i compare
-    (note that it will compare the "now day" text file with the "yester day" text file. And renew pdf files when the new patent appears)
+    (note that it will compare the "now day" text file with the "yester day" text file.   
+    And renew pdf files when the new patent appears)
     
     Python uspto_search.py -i download
     (it will download pdf summary file, using default query)
