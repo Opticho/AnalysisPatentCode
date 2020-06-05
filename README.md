@@ -40,6 +40,10 @@
     (it will download pdf summary file, using default query)
 
     Python uspto_search.py -i search -q "TTL/(something OR something ..) OR .." -fp "text path" -pp "pdf path"
+    (you can change the file(txt) path and pdf path while using the -q command)
+    
+    Python uspto_search.py -i merge -pp "pdf path"
+    (it will merge the pdf file in the path of "pdf path")
 
 ## 4. Results(Default)
 ### TXT file
