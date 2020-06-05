@@ -39,3 +39,4 @@ Library Conjugation
     Python uspto_search.py -i download
     (it will download pdf summary file, using default query)
 
+    Python uspto_search.py -i search -q "TTL/(something OR something ..) OR .." -fp "text path" -pp "pdf path"
