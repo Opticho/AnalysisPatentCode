@@ -42,7 +42,8 @@ Library Conjugation
     Python uspto_search.py -i search -q "TTL/(something OR something ..) OR .." -fp "text path" -pp "pdf path"
 
 ## 4. Results(Default)
--------------
+    ### TXT file
+    ------------
     1 10,639,008 Support and cover structures for an ultrasound probe head 
     2 10,595,823 Internal ultrasound assembly fluid seal 
     3 10,584,606 Turbomachine case comprising an acoustic structure and an abradable element 
@@ -220,3 +221,6 @@ Library Conjugation
     175 4,117,732  Method for checking thickness of sheet materials by using acoustic oscillation and device for effecting same 
     176 4,116,766  Ultrasonic dip seal maintenance system 
     177 3,934,219  Acoustic method and apparatus for determining effectiveness of mine passage seal 
+    
+    ### pdf files and merge pdf file
+    
