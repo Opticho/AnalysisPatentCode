@@ -1,6 +1,6 @@
-#RoughCoding for USPTO patent search
+# RoughCoding for USPTO patent search
 ===================================
-###Library Conjugation
+### Library Conjugation
 
 ## 0. Introduction   
     I just wan't to get the patent summary(title texts and pdf summary files) from the USPTO patent site.   
