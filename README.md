@@ -33,7 +33,7 @@
     (note that it just uses TTL and OR and AND operator, others will occur error)
     
     Python uspto_search.py -i compare   
-    (note that it will compare the today text file with the yesterday text file.   
+    (note that it will compare today text file with yesterday text file.   
     And renew pdf files when the new patent appears)
     
     Python uspto_search.py -i download   
