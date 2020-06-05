@@ -22,6 +22,6 @@ Library Conjugation
                   -pp = pdf_path = os.path.join(path, "patent_pdf"),    
                 note that file directory will be created if there NOT exists directory
 
-3. Simple Example
-'Python uspto_search.py -i search'
+3. Simple Example   
+'''Python uspto_search.py -i search'''
 
