@@ -30,7 +30,7 @@
     Python uspto_search.py -i search
     
     Python uspto_search.py -i search -q "TTL/(something OR something ..) OR .."
-    (note that it just uses TTL and OR and AND operator, others will occurs error)
+    (note that it just uses TTL and OR and AND operator, others will occur error)
     
     Python uspto_search.py -i compare
     (note that it will compare the "now day" text file with the "yester day" text file.   
