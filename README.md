@@ -19,6 +19,7 @@ Library Conjugation
     - "-q" : Input some Query (just AND and OR operator can available)   
     - "-fp" : change txt save path   
     - "-pp" : change pdf save path   
+    
     *Default: -q = 'TTL/(Ultrasonic OR Ultrasound OR Megasound OR Megasonic OR acoustic) AND TTL/(cover OR cap OR case OR covering OR mantle OR hood OR sheet OR shutter OR vinyl OR cowl OR lid OR mulch OR seal)',    
               -fp = os.path.join(path, "patent_search"),    
               -pp = pdf_path = os.path.join(path, "patent_pdf"),    
