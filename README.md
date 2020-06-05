@@ -27,22 +27,22 @@
 
 ## 3. Simple Example   
 -----------------
-    Python uspto_search.py -i search
+    Python uspto_search.py -i search   
     
-    Python uspto_search.py -i search -q "TTL/(something OR something ..) OR .."
+    Python uspto_search.py -i search -q "TTL/(something OR something ..) OR .."   
     (note that it just uses TTL and OR and AND operator, others will occur error)
     
-    Python uspto_search.py -i compare
-    (note that it will compare the *today* text file with the "yester day" text file.   
+    Python uspto_search.py -i compare   
+    (note that it will compare the today text file with the yesterday text file.   
     And renew pdf files when the new patent appears)
     
-    Python uspto_search.py -i download
+    Python uspto_search.py -i download   
     (it will download pdf summary file, using default query)
 
-    Python uspto_search.py -i search -q "TTL/(something OR something ..) OR .." -fp "text path" -pp "pdf path"
+    Python uspto_search.py -i search -q "TTL/(something OR something ..) OR .." -fp "text path" -pp "pdf path"   
     (you can change the file(txt) path and pdf path while using the -q command)
     
-    Python uspto_search.py -i merge -pp "pdf path"
+    Python uspto_search.py -i merge -pp "pdf path"   
     (it will merge the pdf file in the path of "pdf path")
 
 ## 4. Results(Default)
