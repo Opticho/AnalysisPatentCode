@@ -23,5 +23,5 @@ Library Conjugation
                 note that file directory will be created if there NOT exists directory
 
 3. Simple Example   
-"'Python uspto_search.py -i search"'
+\'Python uspto_search.py -i search\'
 
