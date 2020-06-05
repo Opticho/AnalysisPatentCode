@@ -1,4 +1,4 @@
-# RoughCoding for USPTO patent search
+# Rough Coding for USPTO Patent Search
 
 ## 0. Introduction   
     I just wan't to get the patent summary(title texts and pdf summary files) from the USPTO patent site.   
