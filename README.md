@@ -22,7 +22,7 @@
     
     *Default: -q = 'TTL/(Ultrasonic OR Ultrasound OR Megasound OR Megasonic OR acoustic) AND TTL/(cover OR cap OR case OR covering OR mantle OR hood OR sheet OR shutter OR vinyl OR cowl OR lid OR mulch OR seal)',    
               -fp = os.path.join(path, "patent_search"),    
-              -pp = pdf_path = os.path.join(path, "patent_pdf"),    
+              -pp = os.path.join(path, "patent_pdf"),    
               note that file directory will be created if there NOT exists directory
 
 ## 3. Simple Example   
