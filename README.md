@@ -27,4 +27,13 @@ Library Conjugation
 ## 3. Simple Example   
 -----------------
     Python uspto_search.py -i search
+    
+    Python uspto_search.py -i search -q "TTL/(something OR something ..) OR .."
+    (note that it's just uses TTL and OR and AND operator, others will occurs error)
+    
+    Python uspto_search.py -i compare
+    (note that it will compare the "now day" text file with the "yester day" text file. And renew pdf files when the new patent appears)
+    
+    Python uspto_search.py -i download
+    (it will download pdf summary file, using default query)
 
