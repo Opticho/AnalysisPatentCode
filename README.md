@@ -7,7 +7,7 @@
     if you have to try again to search, you have to delete the text file.   
     And please delete my example files(txt and pdf both) if you test my code.
     ------------------------------------------------------------------------------------------
-    update 20200608. I didn't think about ocurring request error caused by the host rejection.
+    update 20200608. I didn't think about occurring request error caused by the host rejection.
     It seems to protect from the overflow. so I just change this code repository to private.
 
 ## 1. Requirements  
