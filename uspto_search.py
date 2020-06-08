@@ -73,7 +73,15 @@ def make_url(page, query):
     
 def get_soup(p, q):
     p = str(p)
-    web = rq.get(make_url(p, q))
+    headers = {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "accept-encoding": "gzip, deflate",
+        "accept-language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+        "content-type": "text/html",
+        "host": "patft.uspto.gov",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36"
+    }
+    web = rq.get(make_url(p, q), headers=headers)
     soup = bs(web.content, "html.parser")
     return soup
 
