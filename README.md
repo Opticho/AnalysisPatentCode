@@ -9,6 +9,7 @@
     ------------------------------------------------------------------------------------------
     update 20200608. I didn't think about occurring request error caused by the host rejection.
     It seems to protect from the overflow. so I just change this code repository to private.
+    update 20201211. Import to Opticho's repository for Example repository.
 
 ## 1. Requirements  
 ---------------
